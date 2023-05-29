@@ -240,7 +240,7 @@ In the context of process flows, a job shop and a flow shop are two different ty
 - `Resource Flexibility`: Job shops often have a range of general-purpose equipment and skilled workers capable of performing diverse tasks.
 - `Higher Lead Times`: Due to the customization and variability, job shops generally have longer lead times as each order may require different setups and processes.
 
-###Flow Shop:
+### Flow Shop:
 - `Standardization`: Flow shops are characterized by standardized and repetitive processes. They produce a limited range of products or services with similar characteristics.
 - `Assembly Line Structure`: Flow shops typically employ assembly line or production line structures, where products move in a sequential manner from one workstation to another.
 - `Fixed Sequence`: The sequence of operations and the routing of work are predetermined and consistent for all products or services.
