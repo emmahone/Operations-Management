@@ -24,7 +24,7 @@ Start --> Receive Raw Materials --> Inspect Materials --> Prepare Materials --> 
 
 ```mermaid
 graph LR
-A(Start) --> B(Receive Raw Materials)
+A(((Start))) --> B(Receive Raw Materials)
 B --> C{Inspect Materials}
 C -->|Acceptable| D(Prepare Materials)
 C -->|Unacceptable| E(Reject Materials)
@@ -34,7 +34,7 @@ G -->|Pass| H(Inspect Product)
 G -->|Fail| I(Rework Product)
 H --> J(Package Product)
 J --> K(Ship Product)
-K --> L(End)
+K --> L(((End)))
 I --> F
 E --> B
 ```
